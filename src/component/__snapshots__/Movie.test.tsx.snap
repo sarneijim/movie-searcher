@@ -1,0 +1,47 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Movie should match the snapshot 1`] = `
+<div
+  className="root"
+>
+  <div
+    className="movie"
+  >
+    <div
+      className="left"
+    >
+      <img
+        className="img"
+        src="https://image.tmdb.org/t/p/w500undefined"
+      />
+      <span
+        className="marker
+                 
+                "
+      />
+    </div>
+    <div
+      className="right"
+    >
+      <h4
+        className="MuiTypography-root MuiTypography-h4"
+      />
+      <h6
+        className="MuiTypography-root MuiTypography-subtitle1 MuiTypography-colorTextSecondary"
+      />
+    </div>
+  </div>
+  <div
+    className="cast"
+  >
+    <h5
+      className="MuiTypography-root MuiTypography-h5"
+    >
+      Cast
+    </h5>
+    <div
+      className="gallery"
+    />
+  </div>
+</div>
+`;

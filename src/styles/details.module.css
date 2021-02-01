@@ -1,0 +1,64 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  overflow: auto;
+}
+.movie {
+  display: flex;
+  padding-top: 10px;
+  max-width: 1000px;
+}
+
+.left {
+  width: 30%;
+  position: relative;
+  padding: 0 10px;
+}
+.right {
+  width: 70%;
+  padding: 0 10px;
+}
+.img {
+  width: 100%;
+}
+.marker {
+  right: 15px;
+  top: 5px;
+  position: absolute;
+  height: 30px;
+  width: 30px;
+  background: orange;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.marker-good {
+  background-color: green;
+}
+.marker-bad {
+  background-color: red;
+}
+
+.gallery {
+  display: flex;
+  overflow-x: auto;
+  margin: 10px;
+}
+.actor {
+  width: 200px;
+  padding: 10px;
+  flex-wrap: nowrap;
+  margin: 1px 10px;
+}
+.actor:hover {
+  border: 1px solid var(--purple);
+  width: 198px;
+}
+.actor-name {
+  width: 100px;
+  color: var(--purple);
+}
+.group {
+  display: flex;
+}

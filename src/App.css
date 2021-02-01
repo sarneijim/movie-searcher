@@ -1,0 +1,50 @@
+:root {
+  --white: #ffffff;
+  --black: #000000;
+  --purple: #3f51b5;
+}
+
+a {
+  color: var(--white);
+  text-decoration: none;
+}
+
+body {
+  background-color: var(--black);
+  color: var(--white);
+  margin: 0;
+}
+
+html,
+body,
+#root,
+.App {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+}
+.main {
+  flex: 1 1;
+  display: flex;
+  overflow: auto;
+  justify-content: center;
+}
+.content {
+  display: flex;
+  min-height: min-content;
+  overflow: auto;
+}
+body .MuiTypography-colorTextSecondary {
+  color: var(--white);
+}
+body .MuiInputBase-input {
+  color: var(--white);
+  padding-left: 10px;
+}
+body .MuiFormGroup-root {
+  flex-direction: row;
+}
+body .MuiGridListTile-tile {
+  align-items: center;
+  display: flex;
+}

@@ -1,0 +1,103 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Catalog should match the snapshot 1`] = `
+<div
+  className="root"
+>
+  <ul
+    className="MuiGridList-root"
+    style={
+      Object {
+        "margin": -2,
+      }
+    }
+  >
+    <li
+      className="MuiGridListTile-root title"
+      style={
+        Object {
+          "height": 184,
+          "padding": 2,
+          "width": "20%",
+        }
+      }
+    >
+      <div
+        className="MuiGridListTile-tile"
+      >
+        <a
+          href="/undefined/1"
+          onClick={[Function]}
+        >
+          <img
+            alt="abc"
+            className="img"
+            src="https://image.tmdb.org/t/p/w500undefined"
+          />
+          <div
+            className="MuiGridListTileBar-root MuiGridListTileBar-titlePositionBottom MuiGridListTileBar-rootSubtitle"
+          >
+            <div
+              className="MuiGridListTileBar-titleWrap"
+            >
+              <div
+                className="MuiGridListTileBar-title"
+              >
+                abc
+              </div>
+              <div
+                className="MuiGridListTileBar-subtitle"
+              >
+                <span />
+              </div>
+            </div>
+          </div>
+        </a>
+      </div>
+    </li>
+    <li
+      className="MuiGridListTile-root title"
+      style={
+        Object {
+          "height": 184,
+          "padding": 2,
+          "width": "20%",
+        }
+      }
+    >
+      <div
+        className="MuiGridListTile-tile"
+      >
+        <a
+          href="/undefined/2"
+          onClick={[Function]}
+        >
+          <img
+            alt="bcd"
+            className="img"
+            src="https://image.tmdb.org/t/p/w500undefined"
+          />
+          <div
+            className="MuiGridListTileBar-root MuiGridListTileBar-titlePositionBottom MuiGridListTileBar-rootSubtitle"
+          >
+            <div
+              className="MuiGridListTileBar-titleWrap"
+            >
+              <div
+                className="MuiGridListTileBar-title"
+              >
+                bcd
+              </div>
+              <div
+                className="MuiGridListTileBar-subtitle"
+              >
+                <span />
+              </div>
+            </div>
+          </div>
+        </a>
+      </div>
+    </li>
+  </ul>
+</div>
+`;

@@ -1,0 +1,28 @@
+.grow {
+  flex-grow: 1;
+}
+.form {
+  display: flex;
+}
+.search {
+  position: relative;
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.15);
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-left: 10px;
+  width: "100%";
+}
+.search:hover {
+  background-color: rgba(255, 255, 255, 0.25);
+}
+
+.inputroot {
+  color: "inherit";
+}
+
+.inputinput {
+  padding: 5px;
+  padding-left: 20px;
+  color: var(--white);
+}

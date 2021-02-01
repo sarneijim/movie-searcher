@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Person should match the snapshot 1`] = `
+<div
+  className="root"
+>
+  <div
+    className="movie"
+  >
+    <div
+      className="left"
+    >
+      <img
+        className="img"
+        src="https://image.tmdb.org/t/p/w500undefined"
+      />
+    </div>
+    <div
+      className="right"
+    >
+      <h4
+        className="MuiTypography-root MuiTypography-h4"
+      />
+      <ul>
+        <div>
+          <pre>
+            []
+          </pre>
+        </div>
+      </ul>
+    </div>
+  </div>
+</div>
+`;
