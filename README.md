@@ -1,4 +1,4 @@
-# Project Titlte
+# Project Title
 
 Movie search application
 
